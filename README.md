@@ -1,14 +1,14 @@
 # BigTopicModel
 
-Big Topic Model is a fast engine for running large-scale Topic Models. It uses a hybrid data and model parallel mechanism to accelerate and performs 3~5 times faster than the state-of-the-art ones on some general dataset. It supports a set of tpoic models including LDA, DTM, MedLDA and RTM.
+Big Topic Model is a fast engine for running large-scale Topic Models. It uses a hybrid data and model parallel mechanism to accelerate and performs 3~5 times faster than the state-of-the-art ones on some general dataset. It supports a set of topic models including LDA, DTM, MedLDA and RTM.
 
 ## Requirement
 
-Big Topic Model depends on several third-party libraries including google glog, gflags, dSFMT and eigen. Currently our tests compile and run mainly based on Intel libraries(Intel® Parallel Studio XE Professional Edition for C++ Linux* 2016), but other libraries like openmpi are practicable.
+Big Topic Model depends on several third-party libraries including Google glog, gflags, dSFMT and eigen. Currently our tests compile and run mainly based on Intel libraries(Intel® Parallel Studio XE Professional Edition for C++ Linux* 2016), but other libraries like openmpi are practicable.
 
 ### Getting Intel software Toolkit
 
-Go to http://software.intel.com to download the Intel software Toolkit. And then set the compilevars:
+Go to http://software.intel.com to download the Intel software Toolkit. And then set the compile variables:
 
 ```
 source /opt/intel/2016/compilers_and_libraries/linux/bin/compilervars.sh intel64
